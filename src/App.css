@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.App {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2;
+  flex-wrap: wrap;
+  padding-inline: 2rem;
+}
+
+.App p {
+  animation: animate 1s ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

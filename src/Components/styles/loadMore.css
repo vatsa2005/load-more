@@ -1,0 +1,37 @@
+.load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load__clickable {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.content {
+    animation: appear 1s ease-in-out;
+}
+
+.disappear {
+    animation: disappear 1s ease-in-out;
+}
+
+@keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
